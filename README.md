@@ -12,21 +12,21 @@ This build of mlx-audio ships support for **Supertonic-2**, a fast multilingual 
 
 Voice **M3** (male) — [download WAV](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/en_M3.wav)
 
-<video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/en_M3.mp4" controls width="480"></video>
+https://github.com/user-attachments/assets/80245c60-76bb-4c83-a1dd-84078681432a
 
 Voice **F1** (female) — [download WAV](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/en_F1.wav)
 
-<video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/en_F1.mp4" controls width="480"></video>
+https://github.com/user-attachments/assets/78c0a3d6-0586-4a41-bb0f-8d4083cbfcbd
 
 **Korean** — *"안녕하세요. 오늘 저는 오랜 철학적 논쟁 중 하나인, '달걀이 먼저인가, 닭이 먼저인가'라는 주제에 대해 이야기하려 합니다..."*
 
 Voice **M1** (male) — [download WAV](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/ko_M1.wav)
 
-<video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/ko_M1.mp4" controls width="480"></video>
+https://github.com/user-attachments/assets/e5abbc0b-b007-4c90-bef6-1efbba4a2cba
 
 Voice **F3** (female) — [download WAV](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/ko_F3.wav)
 
-<video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/ko_F3.mp4" controls width="480"></video>
+https://github.com/user-attachments/assets/237f2daa-3452-4a68-8987-10cc183bea97
 
 See [`docs/supertonic/README.md`](docs/supertonic/README.md) for full transcripts and reproduction snippets.
 

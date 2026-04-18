@@ -12,11 +12,11 @@ Supported languages: `en`, `ko`, `es`, `pt`, `fr`. Voices: `M1`–`M5` (male), `
 
 **M3** (male) — [en_M3.wav](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/en_M3.wav)
 
-<video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/en_M3.mp4" controls width="480"></video>
+https://github.com/user-attachments/assets/80245c60-76bb-4c83-a1dd-84078681432a
 
 **F1** (female) — [en_F1.wav](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/en_F1.wav)
 
-<video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/en_F1.mp4" controls width="480"></video>
+https://github.com/user-attachments/assets/78c0a3d6-0586-4a41-bb0f-8d4083cbfcbd
 
 ### Korean
 
@@ -24,22 +24,25 @@ Supported languages: `en`, `ko`, `es`, `pt`, `fr`. Voices: `M1`–`M5` (male), `
 
 **M1** (male) — [ko_M1.wav](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/ko_M1.wav)
 
-<video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/ko_M1.mp4" controls width="480"></video>
+https://github.com/user-attachments/assets/e5abbc0b-b007-4c90-bef6-1efbba4a2cba
 
 **F3** (female) — [ko_F3.wav](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/ko_F3.wav)
 
-<video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/ko_F3.mp4" controls width="480"></video>
+https://github.com/user-attachments/assets/237f2daa-3452-4a68-8987-10cc183bea97
 
-> The play controls come from `<video>` tags embedding audio-only MP4s (AAC). GitHub renders `<video>` inline at the top level but sanitizes `<audio>` tags — and it also breaks `<video>` tags placed inside markdown tables, so each sample sits as its own block element.
+> The bare `github.com/user-attachments/assets/…` URLs above auto-embed as GitHub media players. Those URLs come from dragging the audio-only MP4s (in `docs/supertonic/`) into the GitHub web UI — there's no CLI/API to mint them, and auto-embed only works when the URL stands on its own line (not inside a table cell).
 
 ## Short benchmark samples
 
 Used for the post-warmup performance measurement in the top-level README.
 
-| Input | Voice | Lang | Sample |
-| ----- | ----- | ---- | ------ |
-| `"Hello world."`                     | M1 | en | [🎧 short_en_M1.wav](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/short_en_M1.wav) |
-| `"오늘 아침 공원을 산책했어요."`     | F1 | ko | [🎧 short_ko_F1.wav](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/short_ko_F1.wav) |
+**`"Hello world."`** — voice M1, en — [WAV](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/short_en_M1.wav)
+
+https://github.com/user-attachments/assets/9244766c-deb9-4fb6-bda9-5d534ec15223
+
+**`"오늘 아침 공원을 산책했어요."`** — voice F1, ko — [WAV](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/short_ko_F1.wav)
+
+https://github.com/user-attachments/assets/0934f7ac-f151-4082-90c2-98246e259f7b
 
 ## Reproduce
 
