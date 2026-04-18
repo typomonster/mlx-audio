@@ -4,6 +4,43 @@
 
 The best audio processing library built on Apple's MLX framework, providing fast and efficient text-to-speech (TTS), speech-to-text (STT), and speech-to-speech (STS) on Apple Silicon.
 
+## Supertonic TTS — multilingual samples
+
+This build of mlx-audio ships support for **Supertonic-2**, a fast multilingual TTS model from Supertone: **5 languages** (EN, KO, ES, PT, FR), **10 preset voices** (M1–M5, F1–F5), 44.1 kHz output. Model: [`typomonster/supertonic-2-mlx`](https://huggingface.co/typomonster/supertonic-2-mlx).
+
+**English** — *"Hello. Today, I would like to talk about one of the long-standing philosophical debates: 'Which came first, the chicken or the egg?'..."*
+
+- [`docs/supertonic/en_M3.wav`](docs/supertonic/en_M3.wav) — male voice **M3**
+- [`docs/supertonic/en_F1.wav`](docs/supertonic/en_F1.wav) — female voice **F1**
+
+**Korean** — *"안녕하세요. 오늘 저는 오랜 철학적 논쟁 중 하나인, '달걀이 먼저인가, 닭이 먼저인가'라는 주제에 대해 이야기하려 합니다..."*
+
+- [`docs/supertonic/ko_M1.wav`](docs/supertonic/ko_M1.wav) — male voice **M1**
+- [`docs/supertonic/ko_F3.wav`](docs/supertonic/ko_F3.wav) — female voice **F3**
+
+### Using the library directly
+
+```python
+import numpy as np, soundfile as sf
+from mlx_audio.tts import load
+
+model = load("typomonster/supertonic-2-mlx")
+for r in model.generate("Hello world.", voice="M1", lang="en"):
+    wav = np.asarray(r.audio)
+    sf.write("out.wav", wav, model.sample_rate)
+```
+
+### Performance
+
+Measured on **Apple M1 Max** with 5 Euler steps, post-warmup:
+
+| Input                                     | Voice | Audio  | Wall   | RTF    |
+| ----------------------------------------- | ----- | ------ | ------ | ------ |
+| `"Hello world."` (en)                     | M1    | 1.46 s | 42 ms  | 0.029× |
+| `"오늘 아침 공원을 산책했어요."` (ko)     | F1    | 2.63 s | 47 ms  | 0.018× |
+
+Audio samples: [`docs/supertonic/short_en_M1.wav`](docs/supertonic/short_en_M1.wav), [`docs/supertonic/short_ko_F1.wav`](docs/supertonic/short_ko_F1.wav).
+
 ## Features
 
 - Fast inference optimized for Apple Silicon (M series chips)
@@ -105,6 +142,7 @@ for result in model.generate("Hello from MLX-Audio!", voice="af_heart"):
 | **Voxtral TTS** | Mistral's 4B multilingual TTS (20 voices, 9 languages) | EN, FR, ES, DE, IT, PT, NL, AR, HI | [mlx-community/Voxtral-4B-TTS-2603-mlx-bf16](https://huggingface.co/mlx-community/Voxtral-4B-TTS-2603-mlx-bf16) |
 | **LongCat-AudioDiT** | SOTA diffusion TTS in waveform latent space with voice cloning | ZH, EN | [mlx-community/LongCat-AudioDiT-1B-bf16](https://huggingface.co/mlx-community/LongCat-AudioDiT-1B-bf16) |
 | **MeloTTS** | Lightweight VITS2-based TTS with streaming | EN (more coming) | [mlx-community/MeloTTS-English-MLX](https://huggingface.co/mlx-community/MeloTTS-English-MLX) |
+| **Supertonic-2** | Fast 4-stage flow-matching TTS (10 preset voices, 44.1 kHz) | EN, KO, ES, PT, FR | [typomonster/supertonic-2-mlx](https://huggingface.co/typomonster/supertonic-2-mlx) |
 
 ### Speech-to-Text (STT)
 
