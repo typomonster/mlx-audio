@@ -10,17 +10,23 @@ This build of mlx-audio ships support for **Supertonic-2**, a fast multilingual 
 
 **English** — *"Hello. Today, I would like to talk about one of the long-standing philosophical debates: 'Which came first, the chicken or the egg?'..."*
 
-| Voice | Play | WAV |
-| --- | --- | --- |
-| **M3** (male) | <video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/en_M3.mp4" controls width="280"></video> | [en_M3.wav](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/en_M3.wav) |
-| **F1** (female) | <video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/en_F1.mp4" controls width="280"></video> | [en_F1.wav](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/en_F1.wav) |
+Voice **M3** (male) — [download WAV](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/en_M3.wav)
+
+<video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/en_M3.mp4" controls width="480"></video>
+
+Voice **F1** (female) — [download WAV](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/en_F1.wav)
+
+<video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/en_F1.mp4" controls width="480"></video>
 
 **Korean** — *"안녕하세요. 오늘 저는 오랜 철학적 논쟁 중 하나인, '달걀이 먼저인가, 닭이 먼저인가'라는 주제에 대해 이야기하려 합니다..."*
 
-| Voice | Play | WAV |
-| --- | --- | --- |
-| **M1** (male) | <video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/ko_M1.mp4" controls width="280"></video> | [ko_M1.wav](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/ko_M1.wav) |
-| **F3** (female) | <video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/ko_F3.mp4" controls width="280"></video> | [ko_F3.wav](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/ko_F3.wav) |
+Voice **M1** (male) — [download WAV](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/ko_M1.wav)
+
+<video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/ko_M1.mp4" controls width="480"></video>
+
+Voice **F3** (female) — [download WAV](https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/raw/ko_F3.wav)
+
+<video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/ko_F3.mp4" controls width="480"></video>
 
 See [`docs/supertonic/README.md`](docs/supertonic/README.md) for full transcripts and reproduction snippets.
 
@@ -45,7 +51,7 @@ Measured on **Apple M1 Max** with 5 Euler steps, post-warmup:
 | `"Hello world."` (en)                     | M1    | 1.46 s | 42 ms  | 0.029× |
 | `"오늘 아침 공원을 산책했어요."` (ko)     | F1    | 2.63 s | 47 ms  | 0.018× |
 
-Audio samples: [`docs/supertonic/short_en_M1.wav`](docs/supertonic/short_en_M1.wav), [`docs/supertonic/short_ko_F1.wav`](docs/supertonic/short_ko_F1.wav).
+Audio samples: [`docs/supertonic/raw/short_en_M1.wav`](docs/supertonic/raw/short_en_M1.wav), [`docs/supertonic/raw/short_ko_F1.wav`](docs/supertonic/raw/short_ko_F1.wav).
 
 ## Features
 
