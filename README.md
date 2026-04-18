@@ -10,13 +10,17 @@ This build of mlx-audio ships support for **Supertonic-2**, a fast multilingual 
 
 **English** — *"Hello. Today, I would like to talk about one of the long-standing philosophical debates: 'Which came first, the chicken or the egg?'..."*
 
-- [`docs/supertonic/en_M3.wav`](docs/supertonic/en_M3.wav) — male voice **M3**
-- [`docs/supertonic/en_F1.wav`](docs/supertonic/en_F1.wav) — female voice **F1**
+| Voice | Playable | Download |
+| --- | --- | --- |
+| **M3** (male) | <video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/en_M3.mp4" controls width="260"></video> | [`en_M3.wav`](docs/supertonic/en_M3.wav) |
+| **F1** (female) | <video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/en_F1.mp4" controls width="260"></video> | [`en_F1.wav`](docs/supertonic/en_F1.wav) |
 
 **Korean** — *"안녕하세요. 오늘 저는 오랜 철학적 논쟁 중 하나인, '달걀이 먼저인가, 닭이 먼저인가'라는 주제에 대해 이야기하려 합니다..."*
 
-- [`docs/supertonic/ko_M1.wav`](docs/supertonic/ko_M1.wav) — male voice **M1**
-- [`docs/supertonic/ko_F3.wav`](docs/supertonic/ko_F3.wav) — female voice **F3**
+| Voice | Playable | Download |
+| --- | --- | --- |
+| **M1** (male) | <video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/ko_M1.mp4" controls width="260"></video> | [`ko_M1.wav`](docs/supertonic/ko_M1.wav) |
+| **F3** (female) | <video src="https://github.com/typomonster/mlx-audio/raw/main/docs/supertonic/ko_F3.mp4" controls width="260"></video> | [`ko_F3.wav`](docs/supertonic/ko_F3.wav) |
 
 ### Using the library directly
 
